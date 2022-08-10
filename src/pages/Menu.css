@@ -1,0 +1,30 @@
+.menu{
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: bold;
+    color: salmon;
+    transition: all 500ms ease-in-out;
+}
+.menu:hover{
+    font-size: 45px;
+    color: tomato;
+    animation-name: move;
+}
+
+ul{
+    width: 15%;
+    margin-bottom: 100px;
+    border:1px solid white;
+    position: fixed;
+}
+li{
+    width: auto;
+    height: 80px;
+    margin-top: 20px;
+}
+
+.subImages{
+    display: flex;
+    flex-direction: column;
+
+}
